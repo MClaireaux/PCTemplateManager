@@ -45,14 +45,26 @@ class InventoryWindow:
         self.save_button = HoverButton(self.z, borderwidth=0, img_leave="./images/Button_save_sleep.png",
                                        img_enter="./images/Button_save_hover.png", bg=BACKGROUND,
                                        highlightthickness=0, activebackground=BACKGROUND)
-        self.save_button.config(command=self.save_piece)
+        #self.save_button.config(command=self.save_piece)
         self.save_button.grid(column = 0, row = 5, sticky = 'e', pady=LARGESPACE)
 
     def save_piece(self):
         id = len(self.inventory)+1
         name = self.first_panel.name_entry.get()
-        type = self.first_panel.type_combobox. get()
-     #   status =
+        type = self.first_panel.type_combobox.get()
+
+        #" Get from push button, how to?"
+        state = self.first_panel.status_combobox.get()
+        origin = self.first_panel.origin_combobox.get()
+
+        retail_price = self.second_panel.retail_price_entry.get()
+        paid_price = self.second_panel.paid_price_entry.get()
+        d_ordered = self.second_panel.d_ordered_entry.get()
+        order_nb = self.first_panel.ordernb_entry.get()
+        date_received = ""
+        date_paid = self.second_panel.date_paid_entry.get()
+        returnable = ""
+        status = self.first_panel.status_combobox.get()
 
 
 
