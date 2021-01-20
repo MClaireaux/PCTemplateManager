@@ -52,7 +52,7 @@ class InventoryWindow:
         id = len(self.inventory)+1
         name = self.first_panel.name_entry.get()
         type = self.first_panel.type_combobox. get()
-        status =
+     #   status =
 
 
 
