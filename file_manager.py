@@ -16,7 +16,11 @@ class FileManager:
 
 
     def load_inventory(self):
-        raw_inv = pd.read_csv("./raw/Inventory.csv")
+
+        try:
+            raw_inv = pd.read_csv('./data/Inventory.csv', keep_default_na=False)
+        except FileNotFoundError:
+            raw_inv = pd.read_csv('./raw/Inventory.csv', keep_default_na=False)
 
         raw_inv['ID'] = raw_inv['ID'].astype(float)
         raw_inv['ID'] = raw_inv['ID'].astype(str)

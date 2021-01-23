@@ -19,7 +19,10 @@ class AccountingWindow:
         self.z.title("Accounting")
         self.z.config(padx=50, pady=25, bg=BACKGROUND)
 
-        self.inventory = pd.read_csv("./raw/Inventory.csv")
+        try:
+            self.inventory = pd.read_csv('./data/Inventory.csv', keep_default_na=False)
+        except FileNotFoundError:
+            self.inventory = pd.read_csv('./raw/Inventory.csv', keep_default_na=False)
 
         self.margin = MarginDetails(master=self.z, inventory=self.inventory)
 

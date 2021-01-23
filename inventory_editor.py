@@ -118,7 +118,7 @@ class InventoryWindow:
 
             self.z.inventory = self.z.inventory.append(new_row, ignore_index = True)
             self.z.inventory.to_csv("./data/Inventory.csv", index=False)
-            messagebox.showinfo(title="Success", message="Your new piece is saved!")
+            messagebox.showinfo(title="Success", message="Your piece has been saved successfully!")
 
     def update_piece(self):
 
@@ -170,6 +170,7 @@ class InventoryWindow:
             print(self.z.inventory)
 
             self.z.inventory.to_csv("./data/Inventory.csv", index=False)
+            messagebox.showinfo(title="Success", message="Your piece has been updated successfully!")
 
 class HeadPanel(Frame):
     def __init__(self, **kw):
