@@ -116,12 +116,14 @@ class MarginDetails(Frame):
 
     def get_margin_details(self, inventory):
         build_list = [x for x in list(inventory["PC build"].unique()) if str(x) != 'nan']
+        print(build_list)
         row_nb = 3
 
         for build in build_list:
             build_tab = inventory[inventory["PC build"] == build]
 
             build_sold_list = list(build_tab["Selling price"][build_tab["Status"] == "Sold"])
+
             self.build_nok_sold = 0.0
             for x in build_sold_list:
                 if x != '':
@@ -132,6 +134,8 @@ class MarginDetails(Frame):
             for x in build_paid_list:
                 if x != '':
                     self.build_nok_paid += float(x)
+
+
 
             build_margin = self.build_nok_sold - self.build_nok_paid
 

@@ -25,8 +25,8 @@ ID,Name,Type,State,Origin,Retail Price,Paid Price,Date ordered,Order number,Date
 24,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,30.11.2020,15385222,,,No,Sold,Paid,Faktura,385,,PC build,
 25,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,24.11.2020,15345274,,,No,Sold,Paid,Faktura,385,,PC build,
 26,Kingston SSD A400 240GB,SSD,Ny,NetOnNet,349,349,24.11.2020,15345274,,,No,Sold,Paid,Faktura,0,,Alexander,
-27,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,24.11.2020,15345274,,,No,In,Paid,Faktura,,,,
-28,Cooler Master Hyper 212 Evo,CPU Cooler,Ny ,NetOnNet,390,390,24.11.2020,15345274,,,No,In,Paid,Faktura,,,,
+27,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,24.11.2020,15345274,,,No,In,Paid,Faktura,500.0,23-01-2021,Daniel Christensson,
+28,Cooler Master Hyper 212 Evo,CPU Cooler,Ny ,NetOnNet,390,390,24.11.2020,15345274,,,No,In,Paid,Faktura,400.0,23-01-2021,Daniel Christensson,
 29,Gainward GeForce RTX 3060Ti Phoenix GS,GPU,Ny,Komplett,5790,5790,03.12.2020,38604761,,,17.12.2020,Sold,,Faktura,6600,,PC build,
 30,AMD Ryzen 7 3800X CPU ,CPU ,Ny,Komplett,3499,3499,01.12.2020,38581467,,,Yes,Returned,,Faktura,,,,
 31,Cooler Master Hyper 212 ARGB Black ,CPU Cooler,Ny,Komplett,529,529,27.11.2020,,,,,Not sent  ,Paid,Visa,,,,
@@ -44,7 +44,7 @@ ID,Name,Type,State,Origin,Retail Price,Paid Price,Date ordered,Order number,Date
 43,Trust GXT 838 Azor Gaming Combo ,Keyboard+Mouse,Ny,Komplett,350,250,27.11.2020,,,,,Not sent  ,Paid,Visa,,,,
 44,Trust GXT 838 Azor Gaming Combo ,Keyboard+Mouse,Ny,Komplett,350,250,27.11.2020,,,,,Not sent  ,Paid,Visa,,,,
 45,Phanteks Eclipse P300A Air Temp Glass Black,Case,Ny,Komplett,699,699,2.12.2020,38589673,,,,Sold,,Faktura,770,,PC build,
-46,Fractal Design Focus G Sort Mid Tower ,Case,Ny,Komplett,599,599,2.12.2020,38589673,,,,In,,Faktura,,,,
+46,Fractal Design Focus G Sort Mid Tower ,Case,Ny,Komplett,599,599,2.12.2020,38589673,,,,In,,Faktura,800.0,23-01-2021,Daniel Christensson,
 47,MSI GeForce RTX 3060 Ti GAMING X TRIO ,GPU,Ny,Komplett,5590,5590,2.12.2020,38597889,,,,Sold,Paid,Faktura,6200,,PC build,
 48,Phanteks Combo RGB Strips ,Tilbehør,Ny,Komplett,256,256,13.12.2020,38696140,,,,In,,Faktura,,,,
 49,Trust GXT 838 Azor Gaming Combo ,Keyboard+Mouse,Ny,Komplett,350,250,15.12.2020,38718430,,,,Sold,,Faktura,0,,Alexander,
@@ -98,7 +98,7 @@ ID,Name,Type,State,Origin,Retail Price,Paid Price,Date ordered,Order number,Date
 97,Asus PCE AC68 Nettverkskort,WiFi Adapter,Used,Henrik Borge,,350,28.12.2020,,,,,Sold,Paid,Vipps,400,15.01.2021,Halvor,
 98,"Corsair TX650M, 650W PSU",PSU,Used,Kenneth Lyne,,650,17.12.2020,,,,,Sold,Paid,Vipps,715,,PC build,
 99,AMD Ryzen 3 3200G,CPU,Used,Morten Osvoll,,550,18.12.2020,,,,,In,Paid,Vipps,,,,
-100,Cooler Master MWE GOLD 650W FULL MODULAR,PSU,Used,Valentinas,,750,14.12.2020,,,,,In,Paid,Vipps,,,,
+100,Cooler Master MWE GOLD 650W FULL MODULAR,PSU,Used,Valentinas,,750,14.12.2020,,,,,In,Paid,Vipps,800.0,23-01-2021,Daniel Christensson,
 101,GTX 1070 Gigabyte G1,GPU,Used,Stefan Hallgrimsson,,1900,15.12.2020,,,,,Sold,Paid,Vipps,2365,20.12.2020,Rune_12,
 102,Razer mamba trådløs gamingmus (16 000 DPI),Mouse,Used,Imran,,400,20.12.2020,,,,,In,Paid,Vipps,,,,
 103,"Intel I7-4790K, Asus ROG Maximus VII Hero & 16gb Corsair DDR3",Package,Used,Chrook,,2300,18.12.2020,,,,,Sold,Paid,Vipps,2300,,PC build,
@@ -106,7 +106,7 @@ ID,Name,Type,State,Origin,Retail Price,Paid Price,Date ordered,Order number,Date
 105,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,29.12.2020,15454658,,,,In,Not paid,Faktura,,,,
 106,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,29.12.2020,15454658,,,,In,Not paid,Faktura,,,,
 107,2TB Seagate Barracuda ST2000DM008 - Harddisk,HDD,Ny ,Multicom,630,630,30.12.2020,7385879,,,,Sold,Not paid,Faktura,671,21.01.2021,Svenske Daniel,
-108,2TB Seagate Barracuda ST2000DM008 - Harddisk,HDD,Ny ,Multicom,630,630,30.12.2020,7385879,,,,In,Not paid,Faktura,,,,
+108,2TB Seagate Barracuda ST2000DM008 - Harddisk,HDD,Ny ,Multicom,630,630,30.12.2020,7385879,,,,In,Not paid,Faktura,700.0,23-01-2021,Daniel Christensson,
 109,2TB Seagate Barracuda ST2000DM008 - Harddisk,HDD,Ny ,Multicom,630,630,30.12.2020,7385879,,,,In,Not paid,Faktura,,,,
 110,Gigabyte AORUS GeForce RTX 3060 Ti MASTER 8G - grafikkort - GF RTX 3060 Ti - 8 GB,GPU,Ny ,Multicom,6225,6225,21.12.2020,7382610,,,,Ordered,Not paid,Faktura,,,,approx 6.1.2021
 111,Gigabyte GeForce RTX 3060 Ti GAMING OC PRO 8G - grafikkort - GF RTX 3060 Ti - 8 GB,GPU,Ny ,Multicom,5889,5889,21.12.2020,7382608,,,,Ordered,Not paid,Faktura,,,,approx 6.1.2021
@@ -190,11 +190,11 @@ ID,Name,Type,State,Origin,Retail Price,Paid Price,Date ordered,Order number,Date
 189,dezen Bluetooth 5.0 USB Mini adapter,Bluetooth,Ny,Proshop,99,99,04.01.2021,47981722,,,,In,,,,,,ordered from Marion
 190,Corsair fan,Fan,,,,,,,,,,In,,,,,,got for free
 191,Corsair fan,Fan,,,,,,,,,,In,,,,,,got for free
-192,Gainward GeForce RTX 3070 Phoenix GS,GPU,Brukt,Anders Skavhaug,6900,7150,02.01.2021,,,,,In,Paid,Vipps,,,,
+192,Gainward GeForce RTX 3070 Phoenix GS,GPU,Brukt,Anders Skavhaug,6900,7150,02.01.2021,,,,,In,Paid,Vipps,8000.0,23-01-2021,Daniel Christensson,
 193,i5 3570k m/ Z77A-G41 og 2x8GB 1600mhz,Package,Brukt,Thomas Jakobsen,,950,10.01.2021,,15.01.2021,,,In,Paid,Vipps,,,,
 194,AMD Ryzen 2700x,CPU,Brukt,Art Dalene,,1500,09.01.2021,,15.01.2021,,,In,Paid,Vipps,,,,
 195,AMD Wraith CPU Fan,CPU Fan,Brukt,Aron,,250,02.01.2021,,03.01.2021,,,In,Paid,Vipps,,,,
-196,"Gigabyte Z97X, HyperX Savage 16GB, i7-4790K,",Package,Brukt ,Øyvind Stensland,,2500,09.01.2021,,13.01.2021,,,In,Paid,Vipps,,,,
+196,"Gigabyte Z97X, HyperX Savage 16GB, i7-4790K,",Package,Brukt ,Øyvind Stensland,,2500,09.01.2021,,13.01.2021,,,In,Paid,Vipps,3000.0,23-01-2021,Daniel Christensson,
 197,AMD Ryzen 3600 Prossessor,CPU,Brukt,Sarosh Mohammed Bekir,,1950,08.01.2021,,13.01.2021,,,In,Paid,Vipps,,,,
 198,Corsair RM850x,PSU,Brukt,Jone Totlandsvik,,1025,29.12.2020,,11.01.2021,,,In,Paid,Vipps,,,,
 199,Corsair TX750,PSU,Brukt,martojh2,,500,07.01.2021,,,,,Ordered,Paid,Vipps,,,,

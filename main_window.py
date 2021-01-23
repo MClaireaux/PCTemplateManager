@@ -146,8 +146,8 @@ class FilesDisplay(Frame):
 
         new_build = build[build['Build'] != file]
         new_draft = draft[draft['Build'] != file]
-       # new_build.to_csv("./data/Build.csv", index=False)
-       # new_draft.to_csv("./data/Draft.csv", index=False)
+        new_build.to_csv("./data/Build.csv", index=False)
+        new_draft.to_csv("./data/Draft.csv", index=False)
 
         arch_build = build[build['Build'] == file]
         arch_draft = draft[draft['Build'] == file]
@@ -162,6 +162,7 @@ class FilesDisplay(Frame):
                 row_to_update['Selling price'] = row['Price_sold']
                 row_to_update['Date sold'] = datetime.datetime.today().strftime('%d-%m-%Y')
                 row_to_update['PC build'] = row['Build']
+                row_to_update['Status'] = 'Sold'
 
                 self.inventory[self.inventory['ID']==ID] = row_to_update
 
@@ -186,12 +187,12 @@ class FilesDisplay(Frame):
         new_draft_archive = draft_archive.append(arch_draft, ignore_index=True)
         new_build_archive = build_archive.append(arch_build, ignore_index=True)
 
-        #new_draft_archive.to_csv(f"./data/Archive_draft.csv", index=False)
-        #new_build_archive.to_csv(f"./data/Archive_build.csv", index=False)
+        new_draft_archive.to_csv(f"./data/Archive_draft.csv", index=False)
+        new_build_archive.to_csv(f"./data/Archive_build.csv", index=False)
         self.inventory.to_csv(f"./data/Inventory.csv", index=False)
 
-        #self.files_in_dir.remove(file)
+        self.files_in_dir.remove(file)
 
-        #self.display_files()
+        self.display_files()
 
         messagebox.showinfo(title="Success", message="Build archieved successfully!")
