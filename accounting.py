@@ -41,8 +41,17 @@ class Exposure(Frame):
     def __init__(self, inventory, **kw):
         super().__init__(bg=BACKGROUND, **kw)
 
-        self.nok_in = inventory["Paid Price"][inventory["Status"] == "In"].sum()
-        self.nok_ordered = inventory["Paid Price"][inventory["Status"] == "Ordered"].sum()
+        in_list = list(inventory["Paid Price"][inventory["Status"] == "In"])
+        self.nok_in = 0.0
+        for x in in_list:
+            if x != '':
+                self.nok_in += float(x)
+
+        ordered_list = list(inventory["Paid Price"][inventory["Status"].str.strip(" ") == "Ordered"])
+        self.nok_ordered = 0.0
+        for x in ordered_list:
+            if x != '':
+                self.nok_ordered += float(x)
 
         self.label_ordered = MyLabel(text=f"Amount ordered: ", master=self)
         self.label_amount_ordered = MyLabel(text=f"{self.nok_ordered} nok", font=(FONT_NAME, 15), master=self)
@@ -70,8 +79,19 @@ class MarginDetails(Frame):
     def __init__(self, inventory, **kw):
         super().__init__(bg=BACKGROUND, **kw)
 
-        self.nok_sold = inventory["Selling price"][inventory["Status"] == "Sold"].sum()
-        self.margin = self.nok_sold - inventory["Paid Price"][inventory["Status"] == "Sold"].sum()
+        sold_list = list(inventory["Selling price"][inventory["Status"] == "Sold"])
+        self.nok_sold = 0.0
+        for x in sold_list:
+            if x != '':
+                self.nok_sold += float(x)
+
+        paid_list = list(inventory["Paid Price"][inventory["Status"] == "Sold"])
+        self.nok_paid = 0.0
+        for x in paid_list:
+            if x != '':
+                self.nok_paid += float(x)
+
+        self.margin = self.nok_sold - self.nok_paid
         self.details = []
 
         self.label_sold = MyLabel(text=f"Amount sold: ", master=self)
@@ -100,7 +120,20 @@ class MarginDetails(Frame):
 
         for build in build_list:
             build_tab = inventory[inventory["PC build"] == build]
-            build_margin = build_tab["Selling price"].sum() - build_tab["Paid Price"].sum()
+
+            build_sold_list = list(build_tab["Selling price"][build_tab["Status"] == "Sold"])
+            self.build_nok_sold = 0.0
+            for x in build_sold_list:
+                if x != '':
+                    self.build_nok_sold += float(x)
+
+            build_paid_list = list(build_tab["Paid Price"][build_tab["Status"] == "Sold"])
+            self.build_nok_paid = 0.0
+            for x in build_paid_list:
+                if x != '':
+                    self.build_nok_paid += float(x)
+
+            build_margin = self.build_nok_sold - self.build_nok_paid
 
             self.label_build = MyLabel(text=f"{build}: ", master=self)
             self.label_build_margin = MyLabel(text=f"{build_margin} nok", master=self, font=(FONT_NAME, 15))

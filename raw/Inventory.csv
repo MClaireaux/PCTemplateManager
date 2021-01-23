@@ -24,7 +24,7 @@ ID,Name,Type,State,Origin,Retail Price,Paid Price,Date ordered,Order number,Date
 23,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,30.11.2020,15385222,,,No,Sold,Paid,Faktura,385,,PC build,
 24,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,30.11.2020,15385222,,,No,Sold,Paid,Faktura,385,,PC build,
 25,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,24.11.2020,15345274,,,No,Sold,Paid,Faktura,385,,PC build,
-26,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,24.11.2020,15345274,,,No,Sold,Paid,Faktura,0,,Alexander,
+26,Kingston SSD A400 240GB,SSD,Ny,NetOnNet,349,349,24.11.2020,15345274,,,No,Sold,Paid,Faktura,0,,Alexander,
 27,Kingston SSD A400 240GB,SSD,Ny ,NetOnNet,349,349,24.11.2020,15345274,,,No,In,Paid,Faktura,,,,
 28,Cooler Master Hyper 212 Evo,CPU Cooler,Ny ,NetOnNet,390,390,24.11.2020,15345274,,,No,In,Paid,Faktura,,,,
 29,Gainward GeForce RTX 3060Ti Phoenix GS,GPU,Ny,Komplett,5790,5790,03.12.2020,38604761,,,17.12.2020,Sold,,Faktura,6600,,PC build,
@@ -73,7 +73,7 @@ ID,Name,Type,State,Origin,Retail Price,Paid Price,Date ordered,Order number,Date
 72,DUTZO Premium Adressable RGB Strip 30cm with contr,Tilbehør,Ny,Proshop,229,229,28.12.2020,,,,,In,Not paid,Faktura,,,,
 73,DUTZO Keiryo Black + Fushi Mousepad Edged - XXXL -,Tilbehør,Ny,Proshop,839,439,28.12.2020,,,,,Sold,Not paid,Faktura,400,13.01.2021,Thomas,
 74,DUTZO Senshi RGB + Fushi Edged Mousepad - XXXL - G,Tilbehør,Ny,Proshop,709,319,28.12.2020,,,,,Sold,Not paid,Faktura,0,,Individual piece,Me
-75,MSI GeForce RTX 3060 Ti GAMING X TRIO - 8GB GDDR6,GPU,Ny,Proshop,5867,5867,15.12.2020,,,,,Sold,Paid,Faktura,6400,,,
+75,MSI GeForce RTX 3060 Ti GAMING X TRIO - 8GB GDDR6,GPU,Ny,Proshop,5867,5867,15.12.2020,,,,,Sold,Paid,Faktura,6400,,PC build,
 76,Fractal SFX (PSU) 500G,PSU,Used,Håkon Thuland,1200,900,15.12.2022,,,,,In,Paid,Vipps,,,,
 77,Asus RTX 2080 Dual OC,GPU,Used,Ole Christian Dalseth,5000,4000,22.11.2020,,,,,Sold,Paid,Vipps,5000,,Individual piece,Tore Rørnes
 78,"i7-3770k, Intel LGA1155, DDR3 1600Mhz 16GB",Package,Used,Fredrik Røstad,1500,1250,23.11.2020,,,,,Sold,Paid,Vipps,1650,,Rune_12,
@@ -297,3 +297,4 @@ ID,Name,Type,State,Origin,Retail Price,Paid Price,Date ordered,Order number,Date
 296,Komplett Gaming Musematte XXL,Musematte,Ny ,Komplett,,130,18.01.2021,38960227,21.01.2021,,,In,Paid,Visa,,,,
 297,Komplett Gaming Musematte XXL,Musematte,Ny ,Komplett,,130,18.01.2021,38960227,21.01.2021,,,In,Paid,Visa,,,,
 298,Komplett Gaming Musematte XXL,Musematte,Ny ,Komplett,,130,18.01.2021,38960227,21.01.2021,,,In,Paid,Visa,,,,
+299,Ryzen 1600AF,CPU,Brukt,Thomas Johansen,,1055,23.01.2021,,,,,Ordered,Paid,Vipps,,,,
