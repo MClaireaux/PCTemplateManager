@@ -244,7 +244,6 @@ class HeadPanel(Frame):
 
         self.get_dat["IDName"] = ""
         self.get_dat["IDName"]= self.get_dat['ID'] + self.get_dat['Name']
-        print(self.get_dat)
 
         NameList(self)
 
