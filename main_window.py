@@ -17,7 +17,6 @@ FONT_NAME = "Courier"
 class MainWindow(Frame):
     def __init__(self, root, **kw):
         super().__init__(**kw)
-        global BACKGROUND, LIGHT, MID, DARK, FONT_NAME
         self.root = root
         self.root.config(padx=0, pady=20, bg=BACKGROUND, width = 900)
 
