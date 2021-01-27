@@ -33,8 +33,10 @@ The program will access the "build.csv" and "draft.csv" files to recover the val
 
 #ARCHIVING A BUILD
 When pushing the second button in front of a build's name in the main menu, the build will be moved from "build.csv" and "draft.csv" to "archive_build.csv" and "archive_draft.csv". 
-The date at which it has been archived will be added automativally.
-The name of the build will not appear in the main menu anymore. The only way to access that file is by opening in with ecel or another program.
+The date at which it has been archived will be added automatically.
+All the pieces selected in the build will be marked as sold. Their price will be automatically entered in the inventory, together with the name and the total price of the build
+The name of the build will not appear in the main menu anymore.
+The builds can be accessed via the "Archive" button in the main menu
 
 #DELETING A BUILD
 When pushing the third button in front of a build's name in the main menu, the build will be removed permanently.
@@ -52,6 +54,9 @@ Clicking on the down arrow shows the margin per PC build
 (!!! Note that it is not possible yet to mark pieces as part of a build and sold automatically. This functionnality is being added in the future !!!)
 
 # MANAGING INVENTORY
-Under construction, not functionnal yet
+You can use this form to enter a new PC piece in the inventory. 
+Pushing the search button in the header shows a list of piece names corresponding to the criterias you entered. These criterias are based on the name (you can enter only a part of the name. The search will return the names that contain the expression you entered). 
+The criterias for the search are the ones in the top section of the form.
+Pushing the update button will update the line corresponding to the piece you found in the list. The save button will create a new row in the inventory
 
 
